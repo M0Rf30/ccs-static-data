@@ -1,0 +1,3 @@
+[submodule "ccs-tools"]
+	path = ccs-tools
+	url = https://github.com/MIPI-Alliance/ccs-tools.git
