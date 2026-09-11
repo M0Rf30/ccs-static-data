@@ -208,7 +208,7 @@ sensor-manufacturer-regs:
   - 0x3f7c		0x00
   - 0x3f7d		0x00
 
-#license:
-#  filename				: bsd-3-clause
+license:
+  filename				: bsd-3-clause
 
 end:
