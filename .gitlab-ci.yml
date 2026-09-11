@@ -1,0 +1,11 @@
+stages:
+  - build
+
+build_ccs_static_data:
+  stage: build
+  image: debian:trixie
+  before_script:
+    - apt update -qq
+    - DEBIAN_FRONTEND=noninteractive apt install -y --no-install-recommends make perl libdigest-crc-perl libyaml-tiny-perl git-core
+  script:
+    - make
